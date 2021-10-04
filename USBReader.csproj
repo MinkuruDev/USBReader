@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Management">
+      <HintPath>C:\Windows\WinSxS\amd64_system.management_b03f5f7f11d50a3a_4.0.15805.0_none_7a3afbf1f7955d9b\System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management.Instrumentation">
+      <HintPath>C:\Windows\WinSxS\amd64_netfx35linq-system...ent.instrumentation_31bf3856ad364e35_10.0.19041.1_none_d6720fb439cf7cc6\System.Management.Instrumentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
